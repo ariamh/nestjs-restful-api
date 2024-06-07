@@ -8,7 +8,7 @@ import { ItemSchema } from './items/item.schema'
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://ariamustofa:ETeWSLZu16zxC9DD@cluster0.9y3kngf.mongodb.net/'),
+    MongooseModule.forRoot('mongodb+srv://ariamustofa:fgBFaKSTcOVDHrCF@cluster0.01qwlka.mongodb.net/'),
     MongooseModule.forFeature([{name: 'Item', schema: ItemSchema}])
   ],
   controllers: [AppController, ItemController],
